@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Computer database Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="qa.backbase.cd.ExtentReportListener.ExtentReporter"/>
+  </listeners>
+  <test thread-count="5" name="Computer database App Test Cases(failed)">
+    <classes>
+      <class name="qa.backbase.test.EditPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="verify_user_able_to_edit_computerdetails" invocation-numbers="11"/>
+          <include name="verify_deletethiscomputer_functionality" invocation-numbers="11"/>
+        </methods>
+      </class> <!-- qa.backbase.test.EditPageTest -->
+    </classes>
+  </test> <!-- Computer database App Test Cases(failed) -->
+</suite> <!-- Failed suite [Computer database Application Test Automation Test Suite] -->

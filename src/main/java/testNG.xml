@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Computer database Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="qa.backbase.cd.ExtentReportListener.ExtentReporter" />
+	</listeners>
+
+
+	<test name="Computer database App Test Cases">
+		<classes>
+			<class name="qa.backbase.test.HomePageTest"></class>
+			<class name="qa.backbase.test.AddComputerPageTest"></class>
+			<class name="qa.backbase.test.EditPageTest"></class>
+		</classes>
+	</test>
+</suite>
